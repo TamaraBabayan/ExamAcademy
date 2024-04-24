@@ -7,8 +7,8 @@ function AvailableTests() {
 			<div id="availableTests" className="availableTestsContainer">
 				<h1>Available Tests</h1>
 				<ul>
-					{tests.map(test => (
-						<Link to="/"><li key={test.id}>{test.name}</li></Link>
+					{tests.map((test, i) => (
+						<Link to="/" key={i}><li key={test.id}>{test.name}</li></Link>
 					))}
 				</ul>
 			</div>
