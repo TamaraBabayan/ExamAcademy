@@ -44,8 +44,8 @@ function YourTests({ teacherId }) {
         </thead>
           <tbody>
             {teacherTests.map(test => (
-              <tr key={test._id} onClick={() => handleClick(test)}>
-                <td>{test.name}</td>
+              <tr key={test._id}>
+                <td ><Link to={`/pass/test/${test._id}`}>{test.name}</Link></td>
                 <td>{test.subject}</td>
                 <td>{test.groups}
                 <FontAwesomeIcon icon={faPlus} 

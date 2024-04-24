@@ -20,6 +20,7 @@
 .yourTestsContainer td {
   padding: 8px;
   text-align: left;
+	color: black;
 }
 
 .yourTestsContainer tr:nth-child(even) {

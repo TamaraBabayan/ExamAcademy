@@ -135,10 +135,16 @@ function SignUpAsTeacher() {
             <input
               type="text"
               placeholder="Enter Name"
+              onChange={handleInput}
+              name="name"
+							value={teacherInfo.name}
               className="form-control rounded-0"
             ></input>
 						{errors.name && <span className="text-danger">{errors.name}</span>}
           </div>
+          <label htmlFor="email">
+              <strong>Email</strong>
+            </label>
           {!emailExists 
             ? <>
             <input
@@ -173,6 +179,9 @@ function SignUpAsTeacher() {
             <input
               type="text"
               placeholder="Enter Organisation Name"
+              name="organisation"
+              onChange={handleInput}
+							value={teacherInfo.organisation}
               className="form-control rounded-0"
             ></input>
 						{errors.organisation && <span className="text-danger">{errors.organisation}</span>}
@@ -184,6 +193,9 @@ function SignUpAsTeacher() {
             <input
               type="text"
               placeholder="Enter Passcode"
+              name="specPasscode"
+              onChange={handleInput}
+							value={teacherInfo.specPasscode}
               className="form-control rounded-0"
             ></input>
 						{errors.specPasscode && <span className="text-danger">{errors.specPasscode}</span>}
@@ -195,6 +207,9 @@ function SignUpAsTeacher() {
             <input
               type="password"
               placeholder="Enter Password"
+              onChange={handleInput}
+              name="password"
+              value={teacherInfo.password}
               className="form-control rounded-0"
             ></input>
 						{errors.password && <span className="text-danger">{errors.password}</span>}

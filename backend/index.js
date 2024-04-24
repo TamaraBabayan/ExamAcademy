@@ -181,6 +181,21 @@ app.get('/api/tests', async (req, res) => {
   }
 });
 
+app.get('/api/testById/:testId', async (req, res) => {
+  try {
+    const testId = req.params.testId;
+    const test = await TestModel.findById(testId);
+    if (!test) {
+      return res.status(404).json({ message: 'Test not found' });
+    }
+    res.json(test);
+  } catch (error) {
+    console.error('Error fetching test:', error);
+    res.status(500).json({ message: 'Server error' });
+  }
+});
+
+
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
