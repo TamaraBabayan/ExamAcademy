@@ -57,7 +57,7 @@ function YourTests({ teacherId }) {
 
   const groupsDoneButton = () => {
     setIsShowedGroups(false);
-    // TODO: uxarkel server: selectedGroupes <-- zangvac
+    // TODO: uxarkel server: selectedGroupes <-- Array, grouptTestId <-- Number
   }
 
   console.log(teacherTests);
