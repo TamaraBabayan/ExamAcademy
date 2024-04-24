@@ -1,0 +1,12 @@
+.groupDataTr {
+	td {
+		padding: 5px 10px;
+
+		button {
+			background: none;
+			border: none;
+			text-decoration: underline;
+			color: #0D6EFD;
+		}
+	}
+}
