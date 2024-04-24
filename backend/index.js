@@ -44,6 +44,18 @@ app.post("/save-student", async (req, res) => {
   }
 });
 
+app.post("/save-teacher", async (req, res) => {
+  const teacherInfo = req.body;
+  try {
+    const newUser = new User(teacherInfo);
+    await newUser.save();
+    res.status(200).json({ message: "TeacherInfo saved successfully" });
+  } catch (error) {
+    console.error("Error saving studentInfo:", error);
+    res.status(500).json({ message: "Internal Server Error" });
+  }
+});
+
 app.post("/check-loginInfo", async (req, res) => {
   const { email, password, specPasscode } = req.body;
 
