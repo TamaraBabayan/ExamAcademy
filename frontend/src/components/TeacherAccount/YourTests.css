@@ -9,6 +9,12 @@
 	background-color: rgba(104, 164, 213, 0.191);
 	padding: 30px;
 	border-radius: 13px;
+
+	button {
+		padding: 0px 5px;
+		border-radius: 4px;
+		margin: 2px;
+	}
 }
 
 .yourTestsContainer table {
