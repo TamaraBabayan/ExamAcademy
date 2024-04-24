@@ -46,3 +46,14 @@
 	font-size: 25px;
 }
 
+.testTableButton {
+	display: flex;
+	align-items: center;
+	width: fit-content;
+
+	button	{
+		background-color: rgb(228, 174, 174);
+		color: rgba(0, 0, 0, 0.5);
+		border: none;
+	}
+}

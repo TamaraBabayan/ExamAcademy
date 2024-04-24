@@ -85,7 +85,7 @@ function YourTests({ teacherId }) {
                 {isShowedGroupes ? (
                   <div>
                     {selectedGroupes.map((groupname, i) => (
-                      <div key={i}>
+                      <div key={i} className="testTableButton">
                         <p>{groupname}</p>
                         <button onClick={() => removeGroupNameByIndex(i)}>x</button>
                       </div>
