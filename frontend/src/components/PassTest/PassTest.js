@@ -27,7 +27,7 @@ function PassTest() {
               className="formName"
               type="text"
               placeholder="Test Name"
-               value={test.name}
+               value={test?.name}
               // onChange={handleInputChange} 
             ></input>
           </div>
