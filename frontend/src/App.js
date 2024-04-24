@@ -11,6 +11,7 @@ import NotFound from "./NotFound.js"
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Routes, Route } from "react-router-dom";
 import CreateRandomTest from "./components/RandomTestGenerator/CreateRandomTest.js";
+import PassTest from "./components/PassTest/PassTest.js";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="/test/creation" element={<Form />} />
         <Route path="/random/test/:teacherId" element={<RandomTestGenerator />} />
         <Route path="/test/review" element={<CreateRandomTest />} />
+        <Route path="/pass/test/:testId" element={<PassTest />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </div>

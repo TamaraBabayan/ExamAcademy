@@ -3,6 +3,8 @@ import "./YourTests.css";
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
+import { faPlus,} from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 
 function YourTests({ teacherId }) {
@@ -11,35 +13,24 @@ function YourTests({ teacherId }) {
   async function fetchTestsByTeacherId(teacherId) {
     try {
       const response = await axios.get(`http://localhost:5087/api/tests?teacherId=${teacherId}`);
-      setTeacherTests(response.data); // Update teacherTests state with response data
+      setTeacherTests(response.data); 
     } catch (error) {
       console.error('Error fetching tests:', error);
-      setTeacherTests([]); // Set teacherTests state to an empty array in case of error
+      setTeacherTests([]); 
     }
   }
 
   useEffect(() => {
-    fetchTestsByTeacherId(teacherId); // Call fetchTestsByTeacherId when component is mounted
-  }, []); // Empty dependency array ensures the effect is only run once
+    fetchTestsByTeacherId(teacherId); 
+  }, []); 
 
   const handleClick = (test) => {
-    // Do something with the clicked test, e.g., navigate to a detail page
     console.log('Clicked test:', test);
   };
-  
+
 
   console.log(teacherTests);
   return (
-    // <div id="yourTests" className="yourTestsContainer">
-    //   <h1>Your Tests</h1>
-    //   <ul>
-    //     {teacherTests.map(test => (
-    //       <Link to="/" key={test._id}> 
-    //       <li>{test.name} ... {test.subject} ... </li>
-    //     </Link>
-    //     ))}
-    //   </ul>
-    // </div>
     <div id="yourTests" className="yourTestsContainer">
       <h1>Your Tests</h1>
       <br></br>
@@ -56,7 +47,12 @@ function YourTests({ teacherId }) {
               <tr key={test._id} onClick={() => handleClick(test)}>
                 <td>{test.name}</td>
                 <td>{test.subject}</td>
-                <td>{test.groups}</td> 
+                <td>{test.groups}
+                <FontAwesomeIcon icon={faPlus} 
+                // onClick={handleAddGroup(test._id)
+                >
+                </FontAwesomeIcon>
+                </td> 
               </tr>
             ))}
           </tbody>

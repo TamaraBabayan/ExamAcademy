@@ -3,16 +3,6 @@ import { Link }from 'react-router-dom';
 
 function YourGroups({ teacherId }) {
   return (
-    // <div id="yourGroups" className="yourGroupsContainer">
-    //   <h1>Your Groups</h1>
-    //   <ul>
-    //     {/* {teacherGroups.map((group) => (
-    //       <Link to="/" key={group}>
-    //         <li>{group}</li>
-    //       </Link>
-    //     ))} */}
-    //   </ul>
-    // </div>
     <div id="yourGroups" className="yourGroupsContainer">
       <h1>Your Tests</h1>
       <br></br>
