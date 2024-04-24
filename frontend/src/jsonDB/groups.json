@@ -1,0 +1,32 @@
+ [
+	{
+	"id" : 0,
+	"name" : "Cpp Group0",
+	"studentCount" : 20,
+	"teacherId" : "0"
+	}, 
+	{
+		"id" : 1,
+		"name": "Cpp Group1",
+		"studentCount" : 21,
+		"teacherId" : "1"
+	},
+	{
+		"id" : 2,
+		"name": "Cpp Group2",
+		"studentCount" : 22,
+		"teacherId" : "2"
+	},
+	{
+		"id" : 3,
+		"name": "Cpp Group3",
+		"studentCount" : 23,
+		"teacherId" : "3"
+	},
+	{
+		"id" : 4,
+		"name": "Cpp Group4",
+		"studentCount" : 24,
+		"teacherId" : "4"
+	}
+]

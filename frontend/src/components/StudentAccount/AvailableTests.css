@@ -1,0 +1,19 @@
+.availableTestsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: rgba(104, 164, 213, 0.191);
+  padding: 20px;
+  height: 500px;
+  /* padding-top: 13%; */
+	margin-top: 10%;
+  border-radius: 13px;
+}
+
+.availableTestsContainer li {
+  font-size: 30px;
+  text-decoration: underline;
+  color: rgb(2, 24, 53);
+}

@@ -1,0 +1,56 @@
+.logInPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 100vh;
+}
+
+.logInPage::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../../images/mainPage.png") center center / cover;
+  filter: blur(3px); /* Adjust the blur radius as needed */
+  z-index: -1;
+}
+
+.logInContainer {
+  background-color: rgba(76, 202, 233, 0.531);
+  padding: 2rem;
+  width: 25%;
+  border-radius: 0.7rem;
+}
+
+.logInContainer h1 {
+  padding-left: 35%;
+}
+
+.createAccountBtn {
+  color: #212529;
+  background-color: #fff;
+  border-color: #ccc;
+  border: 1px solid #dee2e6;
+  width: 100%;
+  height: 35px;
+  background-color: #f8f9fa;
+  border-radius: 0;
+  text-decoration: none;
+}
+
+.logInBtn {
+  color: #fff;
+  background-color: #125a23;
+  border-color: #030504;
+  width: 100%;
+  height: 35px;
+  border-radius: 0;
+  margin-top: 5%;
+}
+
+.logInBtn:hover {
+  box-shadow: 3px 2px 5px rgb(19, 87, 54);
+}

@@ -1,0 +1,47 @@
+.aboutContainer {
+  /* background-color: rgb(194, 224, 238); */
+  background-color: rgb(227, 242, 251); 
+  background: linear-gradient(90deg, rgba(156, 206, 239, 0.974) 0%, rgb(176, 207, 234) 0%, rgba(196,234,255,1) 19%, rgb(255, 255, 255) 59%, rgb(124, 181, 224) 91%);
+  color: rgb(0, 0, 0);
+  display: flex;
+  height: 900px;
+  flex-direction: column;
+	padding: 30px;
+}
+
+.aboutContainer h2 {
+  padding-bottom: 2%;
+}
+
+.text-section1 {
+  width: 50%;
+  text-align: left;
+  font-size: 18px;
+  margin-left: 40px;
+  padding-left: 20px;
+}
+
+.text-section2 {
+  width: 50%;
+  font-size: 18px;
+  margin-left: 340px;
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 5%;
+}
+
+.text-section3 {
+  width: 50%;
+  font-size: 18px;
+  margin-left: 600px;
+  padding-left: 20px;
+  text-align: left;
+  padding-top: 5%;
+}
+
+h2 {
+  text-align: left;
+  text-transform: uppercase;
+  color: rgb(21, 59, 89);
+  text-shadow: 2px 2px 3px rgb(255, 255, 255);
+}

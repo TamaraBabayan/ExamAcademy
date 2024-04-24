@@ -1,0 +1,91 @@
+.signUpAsStudent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 100vh;
+}
+
+.signUpAsStudent::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../../images/mainPage.png") center center / cover;
+  filter: blur(3px); /* Adjust the blur radius as needed */
+  z-index: -1;
+}
+
+.signUpContainer {
+  background-color: rgba(76, 202, 233, 0.531);
+  padding: 2rem;
+  width: 25%;
+  border-radius: 0.7rem;
+}
+
+.signUpContainer h1{
+  padding-left: 7%;
+}
+
+.loginBtns {
+  color: #212529;
+  background-color: #fff;
+  border-color: #ccc;
+  border: 1px solid #dee2e6;
+  width: 100%;
+  height: 35px;
+  background-color: #f8f9fa;
+  border-radius: 0;
+  text-decoration: none;
+}
+
+.signUpBtns {
+  color: #fff;
+  background-color: #0b612f;
+  border-color: #030504;
+  width: 100%;
+  height: 35px;
+  border-radius: 0;
+  margin-top: 5%;
+}
+.signUpBtns:hover {
+  box-shadow: 3px 2px 5px rgb(19, 87, 54);
+}
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-inner {
+  position: relative; /* Add relative positioning to the inner container */
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+  width: 100%;
+}
+
+.close-btn {
+  position: absolute; /* Position the close button relative to the inner container */
+  top: 5px; /* Adjust top and right values to position the close button */
+  right: 10px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  color: #000000;
+}
+
+.close-btn:hover{
+  color: red;
+}

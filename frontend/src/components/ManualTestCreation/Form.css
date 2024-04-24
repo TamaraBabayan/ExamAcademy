@@ -1,0 +1,342 @@
+.submitCorrectAnswer {
+  background-color: #94cbfc;
+  border-radius: 7px;
+  border: rgb(174, 224, 255);
+  box-shadow: 2px 5px 5px rgb(224, 220, 220);
+  width: 80px;
+  height: 40px;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+.submitCorrectAnswer:hover {
+  background-color: rgb(126, 193, 255);
+  color: white;
+  font-weight: bold;
+}
+
+.inputCorrectAnswer {
+  border-radius: 5px;
+  width: 350px;
+  height: 35px;
+  padding-left: 5px;
+}
+
+.formPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  min-height: 100vh;
+  background-color: rgba(157, 211, 255, 0.169);
+  width: 100%; /* Equivalent to w-4/5 in Tailwind */
+}
+
+.formPageContainer {
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  background-color: #ffffff;
+  border: 0 solid #0665b8;
+  border-top-width: 10px;
+  border-radius: 0.375rem;
+  box-shadow: 2px 5px 4px rgba(0, 0, 0, 0.137);
+  width: 80%;
+  min-height: 140px;
+  margin-top: 5%;
+  padding-left: 2rem;
+  padding-top: 0.5rem;
+}
+
+.formPageContainer > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.5rem * var(--tw-space-y-reverse));
+  margin-bottom: calc(0.5rem * (1 - var(--tw-space-y-reverse)));
+}
+
+.formPageContainer h1 {
+  font-size: 1.875rem; /* Equivalent to text-3xl */
+  font-weight: 600; /* Equivalent to font-semibold */
+}
+
+.formPageContainer p {
+  color: rgba(156, 163, 175, 0.8); /* Equivalent to text-gray-500/80 */
+  text-transform: capitalize;
+}
+
+.formContentt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  background-color: #ffffff;
+  border-top-width: 10px;
+  border-radius: 0.375rem;
+  box-shadow: 2px 5px 4px rgba(0, 0, 0, 0.137);
+  width: 80%;
+  min-height: 25vh;
+  margin-top: 2%;
+  margin-bottom: 40px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.5rem;
+}
+
+.oneQuestionContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.sideBtnContainer {
+  position: absolute;
+  top: 50;
+  right: 130px; /* Equivalent to right-16 */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Equivalent to items-center */
+  background-color: #ffffff; /* Equivalent to bg-white */
+  padding: 0.5rem; /* Equivalent to p-2 */
+  border-radius: 0.375rem; /* Equivalent to rounded-md */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Equivalent to shadow-md */
+}
+
+.plusBtn {
+  height: 30px;
+  width: 30px;
+  background-color: #ffffff00;
+  border-radius: 50%;
+  border: 3px solid #045194;
+  color: #045194;
+  cursor: pointer;
+  margin-bottom: 8px;
+  /* margin-left: 1359px;  */
+}
+
+.plusBtn:hover {
+  background-color: rgba(169, 212, 255, 0.478);
+}
+
+.garbageBtn {
+  height: 30px;
+  width: 30px;
+  background-color: #ffffff00;
+  border-radius: 50%;
+  border: 3px solid #045194;
+  color: #055398;
+  cursor: pointer;
+  /* margin-left: 1359px;  */
+}
+
+.garbageBtn:hover {
+  background-color: rgba(169, 212, 255, 0.478);
+}
+
+.questionTypeSelection {
+  padding: 10px;
+}
+
+.formContent {
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  border-radius: 0.375rem;
+  padding: 1.25rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.fieldName label {
+  width: 700px;
+  height: 70px;
+  border-radius: 4px;
+  border: solid 1px rgb(106, 105, 105);
+  padding: 7px;
+  background-color: #87c7ff1f;
+}
+ 
+.fieldName input {
+  width: 700px;
+  height: 70px;
+  border-radius: 4px;
+  padding-left: 22px;
+  border: solid 1px rgb(106, 105, 105);
+}
+
+.fieldName {
+  display: block;
+  font-size: 17px;
+  font-weight: 500;
+  color: #292929bc;
+  text-transform: capitalize;
+}
+.space-y-2 > :not([hidden]) ~ :not([hidden]) {
+  --space-y-reverse: 0;
+  margin-top: calc(0.5rem * var(--space-y-reverse));
+  margin-bottom: calc(0.5rem * (1 - var(--space-y-reverse)));
+}
+
+.newQuestionContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.newQuestionContainer > :not([hidden]) ~ :not([hidden]) {
+  margin-top: 0.5rem;
+}
+
+.questionTextContainer {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.space-y-2 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.5rem * var(--tw-space-y-reverse));
+  margin-bottom: calc(0.5rem * (1 - var(--tw-space-y-reverse)));
+}
+
+.questionType {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05), 0 1px 3px 1px rgba(0, 0, 0, 0.1);
+  height: 2.5rem;
+  border-radius: 0.375rem;
+  border:rgba(0, 0, 0, 0.588);
+  display: block;
+  width: 50%;
+}
+
+.questionTypeSelector {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.addOptionContainer {
+  display: flex;
+}
+
+.addOptionInput {
+  border-radius: 4px;
+  width: 50%;
+  margin-top: 10px;
+  padding: 5px;
+  margin-left: -10px;
+  border-color: rgba(195, 195, 195, 0.528);
+}
+
+.addOptionBtn {
+  display: block;
+  background-color: #045194;
+  color: #ffffff;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-top: 10px;
+  border-radius: 4px;
+  border: solid transparent;
+  margin-left: 2px;
+}
+
+.addOptionBtn:hover {
+  background-color: #093772;
+  box-shadow: 2px 2px 2px rgb(138, 138, 138);
+}
+
+.toggle-button {
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+  width: 20px;
+}
+
+.bottomPartOfField {
+  display: flex; /* Use flexbox to align items horizontally */
+  justify-content: space-between; /* Distribute items evenly along the main axis */
+  align-items: center;
+}
+
+.markCorrectAnswer {
+  border: transparent;
+  background-color: transparent;
+  font-size: 18px;
+}
+
+.markCorrectAnswer:hover {
+  text-decoration: underline;
+}
+
+.checkIcon {
+  margin-left: 1085px;
+}
+
+.requiredBtn {
+  display: flex;
+  align-items: center;
+}
+
+.requiredBtn p {
+  margin-left: 22px;
+  margin-top: 13px;
+}
+
+.formName {
+  width: 30%;
+  height: 40px;
+  border-color: transparent;
+  font-weight: bold;
+  color: black;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.formDescription {
+  width: 49%;
+  height: 40px;
+  padding: 8px;
+}
+
+.radioLabel {
+  display: block; 
+  margin-bottom: 5px; 
+}
+
+.radioLabel input[type="radio"] {
+  width: 20px;
+  height: 20px;
+}
+
+.radioText {
+  font-size: 18px;
+  padding-left: 8px;
+}
+
+.saveTest {
+  height: 60px;
+  width: 170px;
+  font-size: 18px;
+  color:rgb(255, 255, 255);
+  border: 3px solid white;
+  border-radius: 10px;
+  font-weight: bold;
+  box-shadow: 2px 3px 4px rgba(182, 182, 182, 0.814);
+  background: #045194;
+}
+
+.saveTest:hover {
+  background: linear-gradient(white, rgb(143, 195, 243), rgb(80, 144, 213));
+  color: #045194;
+  box-shadow: 2px 3px 7px rgba(171, 169, 169, 0.814);
+}
+
+.mainBtns button {
+  margin: 30px;
+  margin-bottom: 60px;
+  margin-top: 0px;
+}

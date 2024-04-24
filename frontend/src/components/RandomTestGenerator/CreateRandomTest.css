@@ -1,0 +1,40 @@
+.testReview {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 80%;
+	background-color: rgba(204, 235, 255, 0);
+}
+
+.viewFormContentt {
+	display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  background-color: rgb(255, 255, 255);
+  border-top-width: 10px;
+  border-radius: 0.375rem;
+  box-shadow: 2px 5px 4px rgba(0, 0, 0, 0.137);
+  width: 80%;
+  min-height: 25vh;
+  margin-top: 2%;
+  margin-bottom: 40px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.5rem;
+}
+
+.viewOneQuestionContainer {
+	position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.viewNewQuestionContainer {
+	display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+}

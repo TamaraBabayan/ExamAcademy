@@ -1,0 +1,32 @@
+[
+	{
+	"id" : 0,
+	"name" : "Test 1 - C++ basics",
+	"questionCount" : 20,
+	"teacherId" : "0"
+	}, 
+	{
+		"id" : 1,
+		"name": "Test 2 - Javascript Essentials",
+		"questionCount" : 21,
+		"teacherId" : "1"
+	},
+	{
+		"id" : 2,
+		"name": "Test 3 - Computer Architecture",
+		"questionCount" : 22,
+		"teacherId" : "2"
+	},
+	{
+		"id" : 3,
+		"name": "Test 4 - Assembly Language X86",
+		"questionCount" : 23,
+		"teacherId" : "3"
+	},
+	{
+		"id" : 4,
+		"name": "Test 5 - Computer Networks",
+		"questionCount" : 24,
+		"teacherId" : "4"
+	}
+]

@@ -1,0 +1,23 @@
+.footer {
+  background-color: #f1f9ff;
+  color: #303030; 
+  padding: 3%; 
+  text-align: center;
+  min-height: 300px;
+}
+
+.footer span {
+  color: #303030;
+  text-decoration: none; 
+	padding: 40px;
+  line-break: normal;
+}
+
+.footer span:hover {
+  text-decoration: underline; 
+	cursor: pointer;
+}
+
+/* .container {
+  font-size: 20px;
+} */

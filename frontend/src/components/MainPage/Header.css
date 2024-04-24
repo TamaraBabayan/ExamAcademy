@@ -1,0 +1,186 @@
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: rgba(101, 170, 210, 0.933);
+	box-shadow: 2px 5px 5px rgb(193, 232, 255);
+	margin-right: 725px
+}
+
+.headerTitle {
+	position: absolute;
+	margin: 20px;
+	margin-left: 60px;
+	font-size: 35px;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	text-shadow: 3px 3px 2px rgb(73, 144, 211);
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.homeBtn {
+	background-color: rgba(255, 0, 0, 0);
+	border-color: rgba(255, 255, 255, 0);
+	color: white;
+	font-size: 23px;
+	margin: 30px;
+	margin-left: 40%;
+	margin-top: 30px;
+	text-decoration: none;
+}
+
+.homeBtn:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.aboutBtn {
+	background-color: rgba(255, 0, 0, 0);
+	border-color: rgba(255, 255, 255, 0);
+	color: white;
+	font-size: 23px;
+	margin: 25px;
+	margin-top: 30px;
+	text-decoration: none;
+}
+
+.aboutBtn:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.footerBtn {
+	background-color: rgba(255, 0, 0, 0);
+	border-color: rgba(255, 255, 255, 0);
+	color: white;
+	font-size: 23px;
+	margin: 25px;
+	margin-top: 30px;
+	text-decoration: none;
+}
+
+.footerBtn:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.loginbtn {
+	height: 40px;
+	width: 120px;
+	font-size: 17px;
+	border-radius: 6px;
+	border-color: rgb(253, 253, 253);
+	box-shadow: 2px 3px 5px rgb(62, 134, 188);
+	background-color: rgb(202, 232, 252);
+}
+
+.loginbtn:hover {
+	cursor: pointer;
+	background-color: rgb(102, 180, 232);
+}
+
+.loginbtnConteiner {
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.loginContent {
+  display: none; 
+  position: absolute;
+  background-color: rgb(202, 232, 252);
+  width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+	border-radius: 6px;
+}
+
+.loginContent div {
+  padding: 10px 5px;
+	border-radius: 6px;
+}
+
+.loginContent div:hover {
+  background-color: #a4d4ea56;
+	cursor: pointer;
+}
+
+.loginbtnConteiner:hover .loginContent {
+  display: block;
+}
+
+.loginbtnConteiner:hover {
+  cursor: pointer;
+	background-color: rgb(102, 180, 232);
+}
+
+.signUpbtn {
+	height: 40px;
+	width: 120px;
+	font-size: 17px;
+	border-radius: 6px;
+	border-color: rgb(253, 253, 253);
+	box-shadow: 2px 3px 5px rgb(62, 134, 188);
+	background-color: rgb(202, 232, 252);
+}
+
+.signUpbtn:hover {
+	cursor: pointer;
+	background-color: rgb(102, 180, 232);
+}
+
+.signUpbtnConteiner {
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+	margin-left: 8px;
+}
+
+.signUpContent {
+  display: none; 
+  position: absolute;
+  background-color: rgb(202, 232, 252);
+  width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+	border-radius: 6px;
+}
+
+.signUpContent button {
+  padding: 10px 5px;
+	border-radius: 1px;
+	border-color:rgba(240, 248, 255, 0);
+	background-color: rgb(202, 232, 252);
+	font-size: 17px;
+	text-align: center;
+}
+
+.signUpContent button:hover {
+  background-color: #a4d4ea56;
+	cursor: pointer;
+}
+
+.signUpbtnConteiner:hover .signUpContent {
+  display: block;
+}
+
+.signUpbtnConteiner:hover {
+  cursor: pointer;
+	background-color: rgb(102, 180, 232);
+}
+
+.logSignContainer {
+	display: flex;
+  align-items: center;
+	margin-right: 5%;
+}
+
+.navigationBarContainer {
+	display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

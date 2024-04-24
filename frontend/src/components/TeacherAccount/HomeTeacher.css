@@ -1,0 +1,6 @@
+.teacherProfile {
+  top: 0;
+  /* background: linear-gradient(rgb(255, 255, 255), rgba(181, 211, 240, 0.68), rgba(186, 213, 240, 0.841)); */
+  background-color: rgba(243, 239, 239, 0.402);
+  padding-top: 13%;
+}
